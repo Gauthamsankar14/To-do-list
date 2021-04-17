@@ -1,0 +1,55 @@
+.tab {
+    
+    background-color: #2cbdbf;
+    margin: 0;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+  .tab button {
+    color: yellow;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: violet;
+    border-radius: 22px;
+    margin-left: 95%;
+    padding-top: 15px;
+    padding-bottom: 16px;
+    
+  }
+  .tab button:hover {
+    color: blue;
+  }
+  body{
+        margin: 0;
+        padding: 0;
+        margin-top: 20px; 
+       font-family: 'sans-serif';
+       background: #040033
+
+       }
+       
+      #tbl1{
+        margin-left: 22%;
+        background: #222020;
+        border-collapse: collapse;
+        border: 3px solid #2cbdbf;
+        font-style: italic; 
+   }
+   th{
+       text-align: center;
+       text-transform: uppercase;
+   
+   }
+   th, td{
+       border: 2px solid #2cbdbf;
+       padding: 20px;
+       font-weight: 800;
+       color : #dfe8e8;
+   }
+   #head{
+     text-align: center;
+     color:  #2cbdbf;
+   }
